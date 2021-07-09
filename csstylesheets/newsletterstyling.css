@@ -1,0 +1,867 @@
+/*avoid navbar overflow*/
+
+html,
+body {
+    overflow-x: hidden;
+    padding-top: 75px;
+    background-color: #f0f0f0;
+}
+
+
+/*NavBar styling*/
+
+.navbar {
+    /*good!*/
+    background: #1a1a1a;
+    width: 100%;
+    height: 4.5em;
+    font-size: 0.9em;
+    padding: 2em 0.5em 1.5em 1em;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar a.navbar-brand {
+    /*good!*/
+    color: white;
+    text-indent: 2.5em;
+    text-decoration: none;
+    font-family: clarendon-text-pro, serif;
+    font-weight: bold;
+    font-size: 2em;
+    max-width: 10em;
+    padding-right: 50px;
+}
+
+button.btn.btn-outline-success {
+    border-color: white;
+    border-radius: 0%;
+}
+
+html body nav.navbar.navbar-expand-lg div.container-fluid div#navbarTogglerDemo02.collapse.navbar-collapse form.d-flex button.btn.btn-outline-success svg.bi.bi-search {
+    color: white;
+}
+
+div#navbarTogglerDemo02.collapse.navbar-collapse form.d-flex button.btn.btn:active {
+    color: #ff6763;
+}
+
+.btn-outline-success:active {
+    background-color: #ff6763;
+    box-shadow: white;
+    color: black;
+}
+
+.btn-outline-success:focus {
+    background-color: #ff6763;
+    color: black;
+    box-shadow: black;
+}
+
+.btn-outline-success:hover {
+    background-color: #ff6763;
+}
+
+input.form-control.me-2 {
+    border-radius: 0%;
+}
+
+input.form-control.me-2:focus {
+    border-color: red;
+}
+
+input.form-control.me-2:focus-within {
+    border-color: white;
+}
+
+.navbar a.nav-link {
+    /*good!*/
+    color: rgb(82, 82, 82);
+    font-family: clarendon-text-pro, serif;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 0 auto;
+    margin: 0.05em;
+    border: none;
+}
+
+.navbar a:hover {
+    /*good!*/
+    color: white;
+}
+
+.navbar-toggler {
+    /*good?*/
+    font-size: 10px;
+}
+
+.navbar-toggler span {
+    /*good!*/
+    color: white;
+}
+
+.navbar-toggler span:focus-within {
+    /*good!*/
+    color: red;
+    text-transform: capitalize;
+}
+
+button.navbar-toggler:focus {
+    /*good!*/
+    color: transparent;
+}
+
+.form-control:focus {
+    background: #1a1a1a;
+    color: white;
+    font-family: clarendon-text-pro, serif;
+}
+
+.form-control {
+    background: #1a1a1a;
+    color: white;
+    font-family: clarendon-text-pro, serif;
+    text-align: left;
+    border: 5px, white;
+    margin: 2px;
+}
+
+.dropdown-menu.btn:active {
+    color: #838383;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    /*good!*/
+    .nav-link {
+        left: 100%;
+        width: 100%;
+        background: white;
+        border: black 1px solid;
+        text-align: center;
+        margin: 0 -100px;
+    }
+    .navbar a.nav-link {
+        /*good!*/
+        color: rgb(82, 82, 82);
+        font-family: clarendon-text-pro, serif;
+        text-decoration: none;
+        font-size: 1rem;
+        text-transform: uppercase;
+        width: 0 auto;
+        margin: 0.05em;
+        border: none;
+        background: #1a1a1a;
+    }
+    .navbar a.nav-link:hover {
+        /*good!*/
+        color: white;
+    }
+    .containerDropdownMenu {
+        /*good!*/
+        min-width: 106%;
+        background: #1a1a1a;
+        padding: 0 auto;
+        margin: 0 -15px;
+    }
+    .navbar a.navbar-brand {
+        /*good!*/
+        color: white;
+        text-indent: 2.5em;
+        text-align: center !important;
+        margin: -1em auto;
+        text-decoration: none;
+        font-family: clarendon-text-pro, serif;
+        font-weight: bold;
+        font-size: 2em;
+        max-width: 10em;
+        padding-right: 50px;
+    }
+    .dropdown-menu {
+        /*good!*/
+        background: #1a1a1a;
+        box-sizing: border-box;
+        position: relative;
+        border-radius: 0px;
+        padding: 0;
+        margin: 0;
+        border: 3px thin;
+    }
+    .dropdown-menu .btn {
+        display: flex;
+        margin: auto;
+        color: white;
+        border-color: none;
+        border: none;
+        border-radius: 0%;
+        font-family: clarendon-text-pro, serif;
+    }
+    .dropdown-menu .form-inline .btn:hover {
+        /*good!*/
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 0.5px;
+        margin: auto;
+    }
+    .narrow,
+    br {
+        display: none;
+    }
+}
+
+
+/* Sign-up Text*/
+
+html body div.container.sign-up h2 {
+    font-size: 40px;
+}
+
+html body div.header.text-center h1 {
+    font-size: 40px;
+}
+
+html body div.header.text-center p {
+    font-size: 20px;
+}
+
+div.container.sign-up {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+/*sign-up email form*/
+
+div#signup.container {
+    padding-top: 20px;
+}
+
+div#signup.container,
+a {
+    color: #ff6763;
+}
+
+div#signup.container,
+a:hover {
+    color: #f22929;
+}
+
+html body img {
+    justify-content: center;
+}
+
+html body div#signup.container p {
+    padding-bottom: 15px;
+}
+
+
+/*Account Creation Sign-up form*/
+
+input {
+    border-color: white;
+    border-width: 1px;
+}
+
+
+/*Controlling Review Page Elements*/
+
+#albumimage {
+    padding-top: 62px;
+    padding-bottom: 25px;
+    max-width: 100%;
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+    max-height: 350px;
+}
+
+#albumcontainer {
+    padding: 50px 50px 25px 50px;
+    background-color: #f22929;
+    align-content: center;
+    /* background-image: linear-gradient(#1a1a1a,red 40%, white 70%); */
+}
+
+h3 {
+    color: rgb(135, 135, 139);
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+h1 {
+    color: rgb(15, 42, 82);
+    display: flex;
+    justify-content: center;
+    font-family: clarendon-text-pro, serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    display: flex;
+    justify-content: left;
+    font-family: clarendon-text-pro, serif;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    justify-content: left;
+    font-family: clarendon-text-pro, serif;
+}
+
+span#genretype,
+span#ratingcircle1,
+span#ratingspan {
+    color: #f22929;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+#genretype {
+    margin-bottom: 10px;
+}
+
+#spacing-20-border {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: rgb(245, 245, 245) 2px solid;
+}
+
+#spacing-10-review {
+    margin: 10px;
+}
+
+#spacing-5-bottom-div {
+    margin-bottom: 5px;
+    border-bottom: rgb(245, 245, 245) 2px solid;
+}
+
+#ratingspan {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    box-sizing: border-box;
+    line-height: 105px;
+}
+
+#score.container-fluid span {
+    /*The rating circle*/
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    font-size: 50px;
+    border: 10px black solid;
+    animation-name: ratings-pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ratings-pulse {
+    from {
+        color: black;
+    }
+    to {
+        color: red;
+    }
+}
+
+h5.tagline {
+    font-family: clarendon-text-pro, serif;
+    color: rgb(15, 42, 82);
+    font-size: 1.3em;
+}
+
+
+/* Styling the review itself*/
+
+.metadata {
+    color: rgb(135, 135, 139);
+    align-content: left;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+article p {
+    font-family: clarendon-text-pro, serif;
+    font: black;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+#signup {
+    background-color: #1a1a1a;
+    /*#1a1a1a;*/
+    color: white;
+}
+
+#signup h1 {
+    color: white;
+    font-family: clarendon-text-pro, serif;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+#signup p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#signup input {
+    /*email field*/
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    width: 0 auto;
+    padding-right: 140px;
+    border: none;
+    height: 50px;
+    border: 1px thin red;
+    text-indent: 5px;
+}
+
+#signup button {
+    /*sign-up button*/
+    color: white;
+    background: #ff6763;
+    border-radius: 3px;
+    align-items: center;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+    border-color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 80px;
+    justify-content: center;
+}
+
+html body div.container hr {
+    background-color: red;
+}
+
+@keyframes button-hover {
+    from {
+        border-radius: 0;
+        border: none;
+        background: #ff6763;
+    }
+    to {
+        background: red;
+        border-radius: 6%;
+        border: 1px red;
+    }
+}
+
+#signup button:hover {
+    animation-name: button-hover;
+    animation-duration: 1s;
+    background: red;
+    border-radius: 6%;
+    border: 0.5px red;
+}
+
+#signup button:active {
+    background: #ff6763;
+}
+
+#signup-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#spacing-10-border {
+    margin: 10px;
+    border-bottom: rgb(245, 245, 245) 2px solid;
+}
+
+html body div#signup.container.text-center form#signup-form div.row div.col input {
+    margin: 0, 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 478px) {
+    .policytag {
+        display: block;
+    }
+    /* show it on smaller screen */
+    html body div#signup.container.text-center form#signup-form div.row div.col input {
+        margin: 15px;
+    }
+    html body div#signup.container.text-center form#signup-form div.row div.col button {
+        height: 65px;
+        width: 125px;
+        font-size: 16px;
+    }
+    html body div#signup.container.text-center p#policytag.hidden-xs {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 483px) {
+    /*good!*/
+    html body hmtl div#signup.container-fluid form#signup-form div.row div.col button {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin-top: 30px;
+        margin: 10px auto;
+    }
+    html body hmtl div#signup.container-fluid form#signup-form div.row div.col input {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin: 0 auto;
+    }
+    .narrow,
+    br {
+        display: none;
+    }
+}
+
+
+/*=========================Articles=========================*/
+
+html body div.header img#readingdino {
+    max-width: 150px;
+    max-height: 180px;
+}
+
+.container .row .col {
+    text-align: center;
+    justify-items: center;
+    display: grid;
+    padding: 8px 5px;
+}
+
+#album-image {
+    max-width: 160px;
+}
+
+#album-image img {
+    width: 160px;
+    height: 160px;
+    image-rendering: auto;
+    max-width: 160px;
+    max-height: 160px;
+    align-content: center;
+}
+
+#artist {
+    text-transform: capitalize;
+    list-style: none;
+    max-width: 160px;
+    word-wrap: break-word;
+    text-align: left;
+    color: rgb(82, 82, 82);
+}
+
+#album-title {
+    max-width: 160px;
+    padding: 0%;
+    margin: 0%;
+    color: black;
+    text-align: center;
+    width: 160px;
+}
+
+.col ul li .genre-list {
+    width: 160px;
+}
+
+.genre-list {
+    max-width: 160px;
+    text-transform: capitalize;
+    list-style: none;
+    text-align: left;
+}
+
+.reviews-author {
+    text-transform: capitalize;
+    list-style: none;
+    max-width: 160px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.reviews-author span {
+    color: rgb(15, 42, 82);
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.album-artist {
+    text-transform: capitalize;
+    list-style: none;
+    max-width: 160px;
+    word-wrap: break-word;
+    text-align: left;
+    color: rgb(15, 42, 82);
+    margin-bottom: 0.4em;
+}
+
+li.album-title {
+    width: 160px;
+    text-align: left;
+    list-style: none;
+    color: rgb(15, 42, 82);
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+ul.artist-details,
+ul.review-meta-data,
+.published-time {
+    padding: 0;
+    margin: 0;
+    align-items: left;
+}
+
+li.genre-list {
+    width: 160px;
+    font-weight: 600;
+    color: red;
+    text-align: left;
+    justify-items: left;
+    display: grid;
+}
+
+time.published-time {
+    text-align: left;
+    justify-items: left;
+    display: grid;
+    width: 160px;
+    margin-bottom: 1em;
+}
+
+.reviews-author {
+    color: rgb(15, 42, 82);
+}
+
+.album-artist,
+time,
+.genre-list {
+    color: rgb(135, 135, 139);
+}
+
+time {
+    margin-bottom: 1em;
+}
+
+.col {
+    /*columns across reviews*/
+    padding: 0 0.2em;
+}
+
+
+/*=================== Footer ===================*/
+
+.footer {
+    /*good!*/
+    position: relative;
+    background: #1a1a1a;
+    border-top: double 15px red;
+    border-left: double 15px red;
+    border-right: double 15px red;
+    width: 100%;
+    max-width: 100%;
+    margin: auto auto;
+}
+
+footer h1 {
+    /*good!*/
+    color: white;
+    text-decoration: none;
+    font-family: clarendon-text-pro, serif;
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 0 1em;
+    text-align: center;
+}
+
+footer p {
+    /*good!*/
+    color: rgb(82, 82, 82);
+    font-family: clarendon-text-pro, serif;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 0 auto;
+    text-align: center;
+}
+
+.container-fluid {
+    /*good! - for setting height of footer*/
+    padding: 0;
+    height: auto;
+}
+
+footer li svg {
+    /*good!*/
+    color: #b3b3b3;
+    list-style: none;
+    border-spacing: 100px;
+    border: #282828 3px solid;
+    border-radius: 100%;
+    padding: 0 10px;
+    text-indent: -2em;
+    text-align: center;
+}
+
+footer li svg:hover {
+    /*good!*/
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 0.5px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+footer li svg:active {
+    color: #838383;
+}
+
+#footercontainer.navbar.fixed-bottom.footer.container-fluid div.container {
+    justify-content: center;
+    /*good!*/
+}
+
+footer.container-fluid div.container div.container div.row div.col {
+    /*good!*/
+    color: white;
+}
+
+div.container div.row div.col-6,
+.footer.container-fluid div.container div.container div.row div.col-5 {
+    /*good!*/
+    color: white;
+    justify-content: center;
+}
+
+#newsletterbutton {
+    /*good!*/
+    display: flex;
+    margin: auto;
+    color: white;
+    border: 1px solid white;
+    background: none;
+    font-family: clarendon-text-pro, serif;
+    padding: 5px 25px;
+}
+
+#newsletterbutton a {
+    /*good!*/
+    display: flex;
+    margin: auto;
+    color: white;
+    background: none;
+    font-family: clarendon-text-pro, serif;
+    padding: 5px 25px;
+    text-decoration: none;
+    min-width: max-content;
+    text-align: center;
+}
+
+footer#footercontainer.navbar.fixed-bottom.footer.container-fluid div.container div#footerlinks.container div.row div.col-6 button#newsletterbutton:hover {
+    /*good!*/
+    background: red;
+    color: #1a1a1a;
+    border: 1px 1px;
+    border-color: #1a1a1a;
+}
+
+footer#footercontainer.navbar.fixed-bottom.footer.container-fluid div.container div#footerlinks.container div.row div.col-6 button#newsletterbutton:active {
+    /*good!*/
+    color: #838383;
+}
+
+#spacing-20 {
+    /*good!*/
+    margin: 20px;
+}
+
+#spacing-10 {
+    /*good!*/
+    margin: 10px;
+}
+
+#spacing-5 {
+    /*good!*/
+    margin: 5px;
+}
+
+#bizlinks.row div.col-sm {
+    /*good!*/
+    align-content: center;
+    color: white;
+    font-family: clarendon-text-pro, serif;
+    text-align: center;
+}
+
+#bizlinks.row div.col-sm a {
+    /*good!*/
+    margin: auto;
+    color: white;
+    background: none;
+    font-family: clarendon-text-pro, serif;
+    padding: 5px 25px;
+    text-align: center;
+}
+
+#bizlinks.row div.col-sm:hover {
+    /*good!*/
+    background: none;
+    color: #1a1a1a;
+    border: 1px 1px;
+    border-color: #1a1a1a;
+    text-decoration: none;
+    width: max-content;
+}
+
+#bizlinks.row div.col-sm:active {
+    /*good!*/
+    color: #838383;
+}
+
+#bizlinks.row div.col-sm:hover {
+    animation-name: link-hover;
+    animation-duration: 1s;
+    background: red;
+    border-radius: 3%;
+    border: 0.5px red;
+}
+
+@keyframes link-hover {
+    from {
+        border-radius: 0;
+        border: none;
+        background: none;
+    }
+    to {
+        background: red;
+        border-radius: 6%;
+        border: 1px red;
+    }
+}
